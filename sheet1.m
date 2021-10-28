@@ -6,8 +6,7 @@ C=[4,2,-3;7,-7,9;3,-5,6];
 %point 1:
 3*A-5*C
 %point 2:
-B=[16,3,2;5,10,11;9,6,7;];
- 7*A+2*B
+%error because the number of (r,c)in A must ==(r,c) in B;
  %point 3:
  C*A
  %point 4:
@@ -29,14 +28,12 @@ B=[16,3,2;5,10,11;9,6,7;];
  eye(3)
 %   %-------QUESION 3----------:
    %point 1:
-   B=[16,3,2,13;5,10,11,8;9,6,7,12;];
-   [A,B]
+   %error because numbers of rows in A must == numbers of rows in B
    %point 2:
-   B=[16,3,2;5,10,11;9,6,7;4,15,14;];
-   [A;B]
+    %error because numbers of colomuns in A must == numbers of colomuns in B
   %-------QUESION 4----------:
   %point 1:
-a(1:7)=5 
+a(1:7)=5; 
 [diag([5 5 5 5 5 5 5 ]),a.']
  %-------QUESION 5----------:
  %point 1:
